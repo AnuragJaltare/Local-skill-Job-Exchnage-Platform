@@ -1,35 +1,73 @@
-# Local-skill-Job-Exchnage-Platform
-“Full-stack local service booking app: Supabase (Postgres + Auth) backend, React + Tailwind frontend, role-based profiles &amp; dashboards.”
+# Welcome to your Lovable project
 
-My Name is Anurag Jaltare . pursuing B.tech from Shri Shankaracharya technical Campus Bhilai . i Made a Project which is based on the realife problem Of need the local Basic service like - tutor, carpenter , electrician etc .
+## Project info
 
+**URL**: https://lovable.dev/projects/acb986ec-b8ca-4211-a43f-e5115dcd4990
 
-📖 Project Overview
+## How can I edit this code?
 
-This project is a Service Booking Platform built with a modern tech stack, featuring role-based access for clients, providers, and admins. It allows users to search for service providers, make bookings, and manage interactions seamlessly.
+There are several ways of editing your application.
 
-🚀 Tech Stack
+**Use Lovable**
 
-Frontend: React (TypeScript) + Tailwind CSS
+Simply visit the [Lovable Project](https://lovable.dev/projects/acb986ec-b8ca-4211-a43f-e5115dcd4990) and start prompting.
 
-Backend: Supabase (Authentication, Database, RLS, Functions, Triggers)
+Changes made via Lovable will be committed automatically to this repo.
 
-Database: PostgreSQL (via Supabase)
+**Use your preferred IDE**
 
-✨ Features
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-🔑 Authentication & Authorization: Email/password login powered by Supabase with JWTs
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-👥 Role-Based Profiles: Separate dashboards for Client, Provider, and Admin
+Follow these steps:
 
-🔍 Provider Search & Filters: Find providers by category, location, or price
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-📝 Provider Profiles: Showcase services, pricing, and customer reviews
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-📅 Booking Flow: Clients can book providers with date, time, and status management
+# Step 3: Install the necessary dependencies.
+npm i
 
-📊 Client Dashboard: Manage and view all bookings
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-🛠 Provider Dashboard: Manage services, view and confirm bookings
+**Edit a file directly in GitHub**
 
-🛡 Admin Dashboard: Perform basic moderation of users, providers, and bookings
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/acb986ec-b8ca-4211-a43f-e5115dcd4990) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
